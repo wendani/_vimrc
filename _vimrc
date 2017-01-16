@@ -28,5 +28,19 @@ function MyDiff()
   silent execute '!' . cmd . ' ' . opt . arg1 . ' ' . arg2 . ' > ' . arg3 . eq
 endfunction
 
+" ctags
+set tags=./tags;,./TAGS;,tags;,TAGS;
+
+" setting to run vim
+set nocompatible
+filetype plugin on
+
+" line numbering
+set number
+
+" GVim specifc
 "
 colorscheme torte
+
+" font
+set guifont=Lucida_Console:h12
