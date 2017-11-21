@@ -38,9 +38,19 @@ filetype plugin on
 " line numbering
 set number
 
+" Indentation use pure spaces
+set expandtab
+set softtabstop=2
+set shiftwidth=2
+set autoindent
+
 " GVim specifc
 "
 colorscheme torte
 
 " font
-set guifont=Lucida_Console:h12
+set guifont=Lucida_Console:h11
+
+"
+set lines=50
+set columns=120
